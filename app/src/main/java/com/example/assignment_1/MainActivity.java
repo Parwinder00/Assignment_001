@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new Pokemonadapter(pokemonList,getApplicationContext());
         @SuppressLint("WrongConstant") LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext(),LinearLayoutManager.VERTICAL,false);
-        RecyclerView recyclerView = findViewById(R.id.img_pokeimgpokeimg);
+        RecyclerView recyclerView = findViewById(R.id.recycle_poke);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
 
